@@ -1,0 +1,233 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0%;
+  background-image: url(background.png);
+  background-color: white;
+  height: 52vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/********************------------Barra de navegación-------------********************************/
+#barra-nav {
+  display: flex;
+  background-color: #184c99;
+  width: 100%;
+  height: 7vh;
+  font-weight: 300;
+}
+
+#barra-nav ul {
+  list-style-type: none;
+  color: white;
+  padding: 0%;
+  margin: 2vh 1vw;
+  font-size: 1.2vw;
+}
+
+#barra-nav ul li {
+  display: inline;
+  margin: 0% 1.4vw;
+}
+
+#barra-nav b {
+  display: inline-block;
+  padding: 2vh 2.2vw;
+  margin: 0% 9%;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2vw;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+/********************------------Home-------------********************************/
+#home-titulo {
+  margin: 14% 30%;
+  text-align: center;
+}
+
+#home-titulo h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 2.8vw;
+}
+
+#home-titulo #home-resp {
+  color: white;
+  font-size: 2vw;
+}
+
+/*********************------------Quienes somos-------------*********************************/
+#quienes-somos {
+  display: flex;
+  width: 100%;
+  margin: 25% 0 5% 0;
+  padding: 13% 0;
+}
+
+#quien-img {
+  margin: 0 10vw;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#quien-img img {
+  max-width: 40vw;
+  max-height: 20vw;
+}
+
+#quien-texto {
+  margin: 0 2vw;
+  font-size: 1.5vw;
+}
+
+#quien-texto p:first-child {
+  margin: 0 0 5vw 0;
+  font-weight: 700;
+  font-size: 2.5vw;
+  text-align: center;
+}
+
+/*********************------------Servicios-------------*********************************/
+#servicios {
+  background-color: #252b42;
+  color: white;
+  display: flex;
+  max-height: 90vw;
+}
+#serv-img {
+  margin: 20% 0;
+  padding: 0 5%;
+  max-width: 15vw;
+  max-height: 50vh;
+}
+
+#serv-img img {
+  margin: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#serv-texto {
+  margin: 7%;
+  font-size: 1.5vw;
+}
+
+#serv-texto p:first-child {
+  margin: 7% 0;
+  font-weight: 700;
+  font-size: 2.5vw;
+}
+
+#serv-texto li {
+  margin: 1.5vh 0;
+}
+
+/*********************------------Contacto-------------*********************************/
+#contacto {
+  margin: 12% 20%;
+  font-size: 2vw;
+}
+
+#contacto-texto {
+  color: black;
+  text-align: center;
+}
+
+#contacto-texto p {
+  margin-bottom: 5vw;
+}
+
+#contacto-texto p:first-child {
+  margin-bottom: 5vw;
+  font-weight: 700;
+  font-size: 2.5vw;
+}
+
+#contacto-links img {
+  display: inline-block;
+  padding: 0%;
+  margin: 1vh 1vw;
+  width: 5vw;
+  height: 5vw;
+}
+
+#contacto-links div {
+  display: block;
+  margin: 0%;
+  padding: 0%;
+}
+#contacto-links div p {
+  display: inline-block;
+  position: relative;
+  bottom: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+#contacto-links a:link {
+  color: black;
+  text-decoration: none;
+}
+
+#contacto-links a:visited {
+  color: black;
+}
+
+#contacto-links a:hover {
+  color: rgb(18, 105, 139);
+}
+
+/*********************------------Footer-------------*********************************/
+
+footer {
+  color: white;
+  background-color: #252b42;
+  display: flex;
+  font-size: 1.5vw;
+}
+
+footer div {
+  width: 50%;
+  display: flexbox;
+  margin: 2% 3%;
+}
+
+footer img {
+  margin: 1%;
+  width: 3vw;
+  height: 3vw;
+}
+
+#derechos-figma {
+  display: block;
+  min-height: 4vh;
+  max-height: 4vh;
+  background-color: #fafafa;
+  color: black;
+  text-align: center;
+  font-weight: 300;
+  font-size: 0.9vw;
+}
+
+#derechos-figma a:visited {
+  color: black;
+}
+/***
+@media only screen and (max-width: 426px) {
+  
+}
+
